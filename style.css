@@ -31,15 +31,15 @@ body {
 
 .hero-image {
   width: 40%;
-  align-content: center;
-  align-self: flex-start;
+  align-self: center;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   max-height: 300px;
   min-width: 200px;
   min-height: 200px;
+  object-fit: cover;
 }
 
 .title {
